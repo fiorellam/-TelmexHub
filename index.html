@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h1>Inicia n sesion</h1>
+    <button id="login">Inicia con Google</button>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+    <div id="root">  </div>
+    <button id="guardar">Guardar</button>
+
+  <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyBWaCxXDTGvMSNyp37-Ajf7eE62fekucDA",
+      authDomain: "telmex-ffeb8.firebaseapp.com",
+      databaseURL: "https://telmex-ffeb8.firebaseio.com",
+      projectId: "telmex-ffeb8",
+      storageBucket: "telmex-ffeb8.appspot.com",
+      messagingSenderId: "685729735010"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+  <script src="app.js">  </script>
+
+  </body>
+</html>
